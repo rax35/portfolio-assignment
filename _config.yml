@@ -1,0 +1,90 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Ved Prajapati
+email: jollymathologer@gmail.com
+logo: photo.jpg
+description: > # this means to ignore newlines until "baseurl:"
+  <p>B.Tech. (Petroleum Engineering)</p>
+  <p>Applying engineering insight and analytical thinking to solve energy challenges responsibly.</p>
+   
+  <p><i>Submission Date: 30 April 2026</i></p>
+
+baseurl: "/portfolio-assignment" # the subpath of your site, e.g. /blog
+domain: rax35.github.io
+url: "https://rax35.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: rax35
+repository: rax35/portfolio-assignment
+github: [metadata]
+color-scheme: auto
+
+platforms:
+  - name: |-
+      Phone: +91 8849 373 474
+    icon: <i class="fa fa-mobile" aria-hidden="true"></i> #<i class="fa-utility fa-semibold fa-mobile"></i>
+    link: tel:+918849373474
+  - name: LinkedIn
+    icon: <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+    link: https://www.linkedin.com/in/ved-prajapati29
+  - name: |-
+      GitHub: rax35
+    icon: <i class="fa-brands fa-github" aria-hidden="true"></i>
+    link: https://github.com/rax35
+
+navigation:
+  - name: Home
+    link: ./index.html
+    sublist:
+      - name: Introduction
+        link: ./index.html#introduction--learning-philosophy
+      - name: Resume
+        link: ./index.html#resume
+  - name: Projects
+    link: ./projects.html
+    sublist:
+      - name: PZT-Based Cement Monitoring in Wellbores
+        link: ./projects.html#project-1-pzt-based-cement-monitoring-in-wellbores
+
+# Build settings
+remote_theme: vaibhavvikas/jekyll-theme-minimalistic
+
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
