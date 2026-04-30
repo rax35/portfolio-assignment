@@ -34,6 +34,7 @@ github_username: rax35
 repository: rax35/portfolio-assignment
 github: [metadata]
 color-scheme: auto
+favicon: true
 
 platforms:
   - name: |-
