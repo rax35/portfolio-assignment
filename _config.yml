@@ -36,7 +36,7 @@ github: [metadata]
 color-scheme: auto
 favicon: true
 
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "catppuccin_latte", "catppuccin_mocha"
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "catppuccin_latte", "catppuccin_mocha"
 title_sperator: "|"
 subtitle: "Portfolio"
 name: "Ved Prajapati"
@@ -52,16 +52,18 @@ author:
   bio: >
     <p>B.Tech. (Petroleum Engineering)</p>
     <p>Applying engineering insight and analytical thinking to solve energy challenges responsibly.</p>
-   
+
     <p><i>Submission Date: 30 April 2026</i></p>
   location: Ahmedabad, Gujarat, India
-  email: jollymathologer@gmail.com
   github: rax35
   links:
-    - label: Phone
-      icon: "fa fa-mobile"
-      url: "tel:+918849373474" 
-  linkedin: "https://www.linkedin.com/in/ved-prajapati29"
+    - label: "Phone: +91 8849 373 474"
+      icon: "fas fa-fw fa-mobile"
+      url: "tel:+918849373474"
+    - label: "Email: jollymathologer@gmail.com"
+      icon: "fas fa-fw fa-square-envelope"
+      url: "mailto:jollymathologer@gmail.com"
+  linkedin: ved-prajapati29
 
 include:
   - _pages
@@ -71,7 +73,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -83,7 +84,7 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-  
+
 defaults:
   - scope:
       path: ""
@@ -91,39 +92,15 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-platforms:
-  - name: |-
-      Phone: +91 8849 373 474
-    icon: <i class="fa fa-mobile" aria-hidden="true"></i> #<i class="fa-utility fa-semibold fa-mobile"></i>
-    link: tel:+918849373474
-  - name: LinkedIn
-    icon: <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
-    link: https://www.linkedin.com/in/ved-prajapati29
-  - name: |-
-      GitHub: rax35
-    icon: <i class="fa-brands fa-github" aria-hidden="true"></i>
-    link: https://github.com/rax35
-
-navigation:
-  - name: Home
-    link: ./index.html
-    sublist:
-      - name: Introduction
-        link: ./index.html#introduction--learning-philosophy
-      - name: Resume
-        link: ./index.html#resume
-  - name: Projects
-    link: ./projects.html
-    sublist:
-      - name: PZT-Based Cement Monitoring in Wellbores
-        link: ./projects.html#project-1-pzt-based-cement-monitoring-in-wellbores
+      # sidebar:
+      #   - nav: main
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes"
 
 # Plugins
-gems:
+plugins:
+  - jekyll-include-cache
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist

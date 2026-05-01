@@ -1,12 +1,14 @@
 ---
-layout: default
+title: Projects
+permalink: /projects
+toc: true
+toc_sticky: true
 ---
 
-# **Interdisciplinary Projects & Research**
-
-## **Project 1: PZT-Based Cement Monitoring in Wellbores**
+## 1) PZT-Based Cement Monitoring in Wellbores
 
 **Overview & Objective:**
+
 This project explores the use of Piezoelectric (PZT) materials embedded in cement to monitor wellbore integrity in real time.
 
 **Methodology:**
@@ -25,9 +27,7 @@ This project explores the use of Piezoelectric (PZT) materials embedded in cemen
 - Challenge: Sensor durability under downhole conditions
 - Solution: Material optimization and protective layering concepts
 
----
-
-## **Project 2: Reservoir Simulation Study using CMG**
+## 2) Reservoir Simulation Study using CMG
 
 **Overview & Objective:**
 Simulation of reservoir performance under different recovery mechanisms.
@@ -48,9 +48,7 @@ Simulation of reservoir performance under different recovery mechanisms.
 - Handling complex data sets
 - Solution: Structured parameter variation and validation
 
----
-
-## **Project 3: Energy Transition Analysis (Mini Research)**
+## 3) Energy Transition Analysis (Mini Research)
 
 **Overview:**
 Study on the role of fossil fuels in the transition to renewable energy systems.
@@ -60,4 +58,17 @@ Study on the role of fossil fuels in the transition to renewable energy systems.
 - Identified the importance of balanced energy strategies
 - Highlighted the role of petroleum engineers in sustainable development
 
----
+## Industry Exposure: ONGC Mehsana Asset Internship
+
+**Overview:**
+
+Completed an internship in reservoir management at ONGC Mehsana Asset, gaining hands-on exposure to field operations and reservoir performance evaluation.
+
+**Key Learnings:**
+
+- Practical understanding of reservoir behavior in producing fields
+- Exposure to production data analysis and monitoring techniques
+- Insight into challenges of field-scale reservoir management
+
+**Outcome:**
+Bridged the gap between theoretical reservoir engineering concepts and their real-world applications.

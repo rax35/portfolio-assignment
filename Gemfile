@@ -19,7 +19,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
 end
 
-gem "nokogiri", force_ruby_platform: true
+# gem "nokogiri", force_ruby_platform: true
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
@@ -36,3 +36,4 @@ gem "wdm", "~> 0.1", :platforms => [:windows]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "jekyll-remote-theme"
+gem 'jekyll-include-cache'
