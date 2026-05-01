@@ -64,11 +64,12 @@ navigation:
         link: ./projects.html#project-1-pzt-based-cement-monitoring-in-wellbores
 
 # Build settings
-remote_theme: vaibhavvikas/jekyll-theme-minimalistic
+remote_theme: mmistakes/minimal-mistakes #vaibhavvikas/jekyll-theme-minimalistic
 
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.

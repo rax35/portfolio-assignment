@@ -34,3 +34,4 @@ gem "wdm", "~> 0.1", :platforms => [:windows]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "jekyll-remote-theme"
+gem "jekyll-include-cache", group: :jekyll_plugins
