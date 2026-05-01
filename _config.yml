@@ -36,6 +36,62 @@ github: [metadata]
 color-scheme: auto
 favicon: true
 
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "catppuccin_latte", "catppuccin_mocha"
+title_sperator: "|"
+subtitle: "Portfolio"
+name: "Ved Prajapati"
+
+social:
+  links:
+    - "https://www.linkedin.com/in/ved-prajapati29"
+    - "https://github.com/rax35/"
+
+author:
+  name: Ved Prajapati
+  avatar: "photo.jpg"
+  bio: >
+    <p>B.Tech. (Petroleum Engineering)</p>
+    <p>Applying engineering insight and analytical thinking to solve energy challenges responsibly.</p>
+   
+    <p><i>Submission Date: 30 April 2026</i></p>
+  location: Ahmedabad, Gujarat, India
+  email: jollymathologer@gmail.com
+  github: rax35
+  links:
+    - label: Phone
+      icon: "fa fa-mobile"
+      url: "tel:+918849373474" 
+  linkedin: "https://www.linkedin.com/in/ved-prajapati29"
+
+include:
+  - _pages
+
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
 platforms:
   - name: |-
       Phone: +91 8849 373 474
@@ -64,11 +120,23 @@ navigation:
         link: ./projects.html#project-1-pzt-based-cement-monitoring-in-wellbores
 
 # Build settings
-remote_theme: vaibhavvikas/jekyll-theme-minimalistic
+remote_theme: "mmistakes/minimal-mistakes"
 
-plugins:
+# Plugins
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-feed
-  - jekyll-remote-theme
+  - jemoji
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
 
 # Exclude from processing.
 # The following items will not be processed, by default.
