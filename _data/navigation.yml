@@ -1,0 +1,11 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Resume"
+    url: /resume
+  - title: Projects
+    url: /projects
+  - title: Skills
+    url: /skills
+  - title: SWOT Analysis
+    url: /swot
